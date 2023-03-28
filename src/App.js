@@ -1,4 +1,3 @@
-import './App.css';
 import DisplayCal from './components/calculator';
 
 function App() {
