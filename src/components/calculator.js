@@ -88,7 +88,7 @@ function DisplayCal() {
 
             <tr>
               <td colSpan={2}>
-                <input className="btn all-btn light-btn all-btn-big" type="button" value="0" />
+                <button type="button" id="0" className="btn all-btn light-btn" onClick={HandleClick}>0</button>
               </td>
               <td>
                 <button type="button" id="." className="btn all-btn light-btn" onClick={HandleClick}>.</button>
