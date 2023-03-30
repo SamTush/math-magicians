@@ -1,4 +1,29 @@
 import './calculator.scss';
+import PropTypes from 'prop-types';
+
+function LightBtn({ value }) {
+  return (
+    <>
+      <input className="btn all-btn light-btn" type="button" value={value} />
+    </>
+  );
+}
+
+function OrangeBtn({ value }) {
+  return (
+    <>
+      <input className="btn all-btn orange-btn" type="button" value={value} />
+    </>
+  );
+}
+
+LightBtn.propTypes = {
+  value: PropTypes.string.isRequired,
+};
+
+OrangeBtn.propTypes = {
+  value: PropTypes.string.isRequired,
+};
 
 function DisplayCal() {
   return (
@@ -14,61 +39,61 @@ function DisplayCal() {
 
             <tr>
               <td>
-                <input className="btn all-btn light-btn" type="button" value="AC" />
+                <LightBtn value="AC" />
               </td>
               <td>
-                <input className="btn all-btn light-btn" type="button" value="+/-" />
+                <LightBtn value="+/-" />
               </td>
               <td>
-                <input className="btn all-btn light-btn" type="button" value="%" />
+                <LightBtn value="%" />
               </td>
               <td>
-                <input className="btn all-btn orange-btn" type="button" value="÷" />
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <input className="btn all-btn light-btn" type="button" value="7" />
-              </td>
-              <td>
-                <input className="btn all-btn light-btn" type="button" value="8" />
-              </td>
-              <td>
-                <input className="btn all-btn light-btn" type="button" value="9" />
-              </td>
-              <td>
-                <input className="btn all-btn orange-btn" type="button" value="×" />
+                <OrangeBtn value="÷" />
               </td>
             </tr>
 
             <tr>
               <td>
-                <input className="btn all-btn light-btn" type="button" value="4" />
+                <LightBtn value="7" />
               </td>
               <td>
-                <input className="btn all-btn light-btn" type="button" value="5" />
+                <LightBtn value="8" />
               </td>
               <td>
-                <input className="btn all-btn light-btn" type="button" value="6" />
+                <LightBtn value="9" />
               </td>
               <td>
-                <input className="btn all-btn orange-btn" type="button" value="-" />
+                <OrangeBtn value="×" />
               </td>
             </tr>
 
             <tr>
               <td>
-                <input className="btn all-btn light-btn" type="button" value="1" />
+                <LightBtn value="4" />
               </td>
               <td>
-                <input className="btn all-btn light-btn" type="button" value="2" />
+                <LightBtn value="5" />
               </td>
               <td>
-                <input className="btn all-btn light-btn" type="button" value="3" />
+                <LightBtn value="6" />
               </td>
               <td>
-                <input className="btn all-btn orange-btn" type="button" value="+" />
+                <OrangeBtn value="-" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <LightBtn value="1" />
+              </td>
+              <td>
+                <LightBtn value="2" />
+              </td>
+              <td>
+                <LightBtn value="3" />
+              </td>
+              <td>
+                <OrangeBtn value="+" />
               </td>
             </tr>
 
@@ -77,10 +102,10 @@ function DisplayCal() {
                 <input className="btn all-btn light-btn all-btn-big" type="button" value="0" />
               </td>
               <td>
-                <input className="btn all-btn light-btn" type="button" value="." />
+                <LightBtn value="." />
               </td>
               <td>
-                <input className="btn all-btn orange-btn" type="button" value="=" />
+                <OrangeBtn value="=" />
               </td>
             </tr>
           </table>
