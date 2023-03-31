@@ -4,12 +4,14 @@ import getQuote from './api-ninjas';
 
 function Quotes() {
   const [quoteIs, setQuoteIs] = useState('');
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchQuote = async () => {
       try {
         const quote = await getQuote();
         setQuoteIs(`${quote[0].quote} Author: ${quote[0].author}`);
+        setIsLoading(false);
       } catch (e) {
         console.log('error:', e);
       }
@@ -21,8 +23,14 @@ function Quotes() {
     <div className="container">
       <div className="row">
         <div className="col col-12 quotes p-5">
-          <p className="quote">
-            {quoteIs}
+          <p>
+            {isLoading ? (
+              <p>Please wait ......</p>
+            ) : (
+              <p className="quote">
+                {quoteIs}
+              </p>
+            )}
           </p>
         </div>
       </div>

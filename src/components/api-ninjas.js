@@ -1,5 +1,5 @@
 const url = 'https://api.api-ninjas.com/v1/quotes?category=computers';
-const apikey = 'key here';
+const apikey = 'APIKey';
 
 const getQuote = async () => {
   try {
