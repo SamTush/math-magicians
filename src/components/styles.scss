@@ -11,5 +11,9 @@ $background-color: #09505a;
     color: $tertiary-color;
     border-radius: 4px;
     height: 300px;
+
+    .quote {
+      font-size: 20px;
+    }
   }
 }
