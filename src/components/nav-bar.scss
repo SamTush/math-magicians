@@ -5,24 +5,23 @@ $primary-color-dark: #343434;
 $secondary-color: #f5913e;
 $tertiary-color: #e0e0e0;
 $tertiary-color-light: #f7fff7;
-$background-color: #09505a;
+$background-color: #028090;
 
-.container {
-  .math {
+nav {
+  .navbar-brand {
     font-family: 'Delicious Handrawn', cursive;
-    font-size: 30px;
+    font-size: 48px;
     color: $primary-color;
+
+    span {
+      color: $secondary-color;
+    }
   }
 
-  .quotes {
-    background-color: $background-color;
-    color: $tertiary-color;
-    border-radius: 4px;
-    height: 300px;
-
-    .quote {
-      font-size: 30px;
+  .navbar-collapse {
+    a {
       font-family: 'Delicious Handrawn', cursive;
+      font-size: 26px;
     }
   }
 }
