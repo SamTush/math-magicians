@@ -20,7 +20,7 @@ function Quotes() {
   }, []);
 
   return (
-    <div className="container mb-5">
+    <div className="container mb-5 mt-5">
       <div className="row">
         <div className="col col-12 quotes p-5">
           <p>

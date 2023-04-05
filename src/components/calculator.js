@@ -16,10 +16,10 @@ function DisplayCal() {
 
   const { total, next, operation } = currentOperation;
   return (
-    <div className="container">
+    <div className="container mt-5">
       <div className="row">
-        <div className="col col-6 math">
-          <p className="mt-5 ms-5">
+        <div className="col col-6">
+          <p className="mt-5 ms-5 math">
             Let&apos;s do some math.
           </p>
         </div>
