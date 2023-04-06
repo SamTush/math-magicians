@@ -12,8 +12,8 @@ function Quotes() {
         const quote = await getQuote();
         setQuoteIs(`${quote[0].quote}  - ${quote[0].author}`);
         setIsLoading(false);
-      } catch (e) {
-        console.log('error:', e);
+      } catch (error) {
+        throw error;
       }
     };
     fetchQuote();
