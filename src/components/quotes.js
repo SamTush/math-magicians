@@ -10,7 +10,7 @@ function Quotes() {
     const fetchQuote = async () => {
       try {
         const quote = await getQuote();
-        setQuoteIs(`${quote[0].quote} Author: ${quote[0].author}`);
+        setQuoteIs(`${quote[0].quote}  - ${quote[0].author}`);
         setIsLoading(false);
       } catch (e) {
         console.log('error:', e);
@@ -20,7 +20,7 @@ function Quotes() {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container mb-5 mt-5">
       <div className="row">
         <div className="col col-12 quotes p-5">
           <p>
