@@ -4,10 +4,9 @@
   <img src="/src/logo-orange.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h1><b>math-magicians</b></h1>
+  <h3><b>math-magicians</b></h3>
 
 </div>
-
 
 # 📗 Table of Contents
 
@@ -17,13 +16,14 @@
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
   - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
-
 
 # 📖 [math-magicians] <a name="about-project"></a>
 
@@ -35,7 +35,6 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 
 <details>
   <summary>React</summary>
@@ -58,7 +57,6 @@
   </ul>
 </details>
 
-
 ### Key Features <a name="key-features"></a>
 
 - **[Make simple calculations.]**
@@ -66,11 +64,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
+
+In order to run this project you need:
+
+- npm package
 
 ### Setup
 
@@ -79,23 +81,22 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone git@github.com:samtush/math-magicians.git
 ```
+
 ### Usage
 
 To run the project, execute the following command:
 
-- install npm
-- install webpack
+- install npm and run the commend below in your terminal.
 
-### Running 
 ```
-npm start
+  npm start
 ```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 **Samson**
 
@@ -103,10 +104,20 @@ npm start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 
 - [ ] **[Add more calculations]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/SamTush/math-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
