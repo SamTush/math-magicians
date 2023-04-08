@@ -14,6 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [live Demo🚀](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -61,6 +62,12 @@
 
 - **[Make simple calculations.]**
 - **[Read a random math-related quote.]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Live Demo <a name="live-demo"></a>
+
+- [Live demo🚀](https://math-magician-e7lc.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
