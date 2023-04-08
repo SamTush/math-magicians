@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+$primary-color: #858694;
+$primary-color-dark: #343434;
+$secondary-color: #f5913e;
+$tertiary-color: #e0e0e0;
+$tertiary-color-light: #f7fff7;
+$background-color: #028090;
+
+nav {
+  .navbar-brand {
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 48px;
+    color: $primary-color;
+
+    span {
+      color: $secondary-color;
+    }
+  }
+
+  .navbar-collapse {
+    a {
+      font-family: 'Delicious Handrawn', cursive;
+      font-size: 26px;
+    }
+  }
+}

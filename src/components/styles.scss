@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+$primary-color: #858694;
+$primary-color-dark: #343434;
+$secondary-color: #f5913e;
+$tertiary-color: #e0e0e0;
+$tertiary-color-light: #f7fff7;
+$background-color: #09505a;
+
+.container {
+  .math {
+    font-family: 'Delicious Handrawn', cursive;
+    color: $primary-color;
+  }
+
+  .quotes {
+    background-color: $background-color;
+    color: $tertiary-color;
+    border-radius: 4px;
+    height: 300px;
+
+    .quote {
+      font-size: 30px;
+      font-family: 'Delicious Handrawn', cursive;
+    }
+  }
+}
